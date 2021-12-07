@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Checkout from './helpers/checkout'
@@ -5,7 +7,5 @@ import Checkout from './helpers/checkout'
 import { products } from './data/data'
 
 import discounts from './helpers/discounts';
-
 const purchase = new Checkout(products, discounts)
-purchase.init()
 App(purchase)

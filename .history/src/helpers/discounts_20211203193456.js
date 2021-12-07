@@ -1,0 +1,6 @@
+const discount = [
+    {
+
+    }
+]
+export discount
