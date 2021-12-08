@@ -1,0 +1,12 @@
+import { UniqueId } from 'lodash'
+import { ContainerShoppingCart } from './ShoppingCart.styled'
+
+export const ShoppingCart = (props) => {
+    return (
+        <ContainerShoppingCart>
+
+            <h1>shopping cart</h1>
+
+        </ContainerShoppingCart>
+    )
+}
